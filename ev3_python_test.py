@@ -7,4 +7,4 @@ import ev3dev.ev3 as ev3
 # from ev3dev2.led import Leds
 
 m = ev3.LargeMotor('outA')
-m.run_timed(time_sp=3000, speed_sp=5000)
+m.run_timed(time_sp=3000, speed_sp=1000)
